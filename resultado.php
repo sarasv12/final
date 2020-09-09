@@ -12,7 +12,7 @@
 		echo "<h1>".$p."</h1>";
 		echo "Respuestas correctas: ".$_SESSION["correctas"];
 		echo "<br>Respuestas incorrectas: ".$_SESSION["incorrectas"];
-		$conexion=new mysqli("localhost","root","","final");
+		$conexion=new mysqli"bo4lgmhbaqip5sohbkjz-mysql.services.clever-cloud.com","ui44bwd6shgxv7kw","2PTPGp1YXIO6oUNaFG0J","bo4lgmhbaqip5sohbkjz");
 		$sql="SELECT * FROM datos WHERE 1";
 		$resultado=$conexion->query($sql);
 		$dato=$resultado->fetch_assoc();
