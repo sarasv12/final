@@ -1,0 +1,58 @@
+body
+{
+	text-align: center;
+	background-color: #4D5AA8;
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-position: center 3%;
+	color: white;
+	font-family: arial;
+}
+
+button
+{
+	background-color: white; 
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 16px;
+  	color: black;
+}
+
+button:hover
+{
+	background-color: black; 
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 16px;
+}
+
+.i1
+{
+	background-color: #25338D;
+	position: absolute;;
+	height: 35%;
+	width: 30%;
+	left: 35%;
+	top: 30%;
+	border-radius: 20px;
+	opacity: 0.9;
+}
+
+.i2
+{
+	background-color: #25338D;
+	height: 8%;
+	width: 80%;
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	border-radius: 20px;
+	opacity: 0.9;
+  	text-align: center;
+}
