@@ -14,7 +14,7 @@
 		$_SESSION["puntos"]=0;
 		$_SESSION["correctas"]=0;
 		$_SESSION["incorrectas"]=0;
-		$conexion=new mysqli("localhost","root","","final");
+		$conexion=new mysqli("bo4lgmhbaqip5sohbkjz-mysql.services.clever-cloud.com","ui44bwd6shgxv7kw","2PTPGp1YXIO6oUNaFG0J","bo4lgmhbaqip5sohbkjz");
 		$sql="SELECT * FROM datos WHERE 1";
 		$resultado=$conexion->query($sql);
 		$dato=$resultado->fetch_assoc();
